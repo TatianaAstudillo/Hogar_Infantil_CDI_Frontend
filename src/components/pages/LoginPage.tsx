@@ -1,4 +1,5 @@
 import { LoginForm } from "../organisms/LoginForm";
+import logo from "@/assets/images/logo.png";
 
 const LoginPage = () => {
   return (
@@ -6,11 +7,7 @@ const LoginPage = () => {
       <div className="bg-white p-8 rounded-2xl shadow-md w-full max-w-md text-center">
         
         {/* LOGO */}
-        <img
-          src="src/assets/images/logo.png"
-          alt="logo"
-          className="mx-auto mb-4 w-16"
-        />
+        <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
 
         {/* TÍTULO */}
         <h1 className="text-2xl font-bold">SIGEH</h1>
