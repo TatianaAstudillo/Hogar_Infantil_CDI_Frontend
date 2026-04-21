@@ -1,5 +1,6 @@
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
+import logo from "@/assets/images/logo.png";
 
 export const generatePDF = async (
   title: string,
@@ -11,7 +12,7 @@ export const generatePDF = async (
 
   // 🖼️ LOGO
   const img = new Image();
-  img.src = "/src/assets/images/logo.png";
+  img.src = logo;
 
   await new Promise((resolve) => {
     img.onload = resolve;
