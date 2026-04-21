@@ -7,7 +7,12 @@ const LoginPage = () => {
       <div className="bg-white p-8 rounded-2xl shadow-md w-full max-w-md text-center">
         
         {/* LOGO */}
-        <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
+        <img
+          src={logo}
+          alt="logo"
+          className="mx-auto mb-4 w-16"
+        />
+
 
         {/* TÍTULO */}
         <h1 className="text-2xl font-bold">SIGEH</h1>
